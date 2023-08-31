@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Spotify from "./Spotify/Spotify";
 import Playlist from './Playlist/Playlist';
 import SearchBar from './SearchBar/SearchBar';
 import SearchResults from './SearchResults/SearchResults';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function App() {
 

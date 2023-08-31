@@ -1,5 +1,4 @@
-import React, {useState} from 'react';
-import styles from './Playlist.module.css';
+import React from 'react';
 import Tracklist from '../Tracklist/Tracklist';
 
 function Playlist({playlistTitle, playlistTracks, onChange, onRemoveTrack, onSave}) {

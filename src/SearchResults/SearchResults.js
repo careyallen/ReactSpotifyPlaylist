@@ -1,6 +1,4 @@
-import React, {useState} from 'react';
-import styles from './SearchResults.module.css'
-import Track from '../Track/Track';
+import React from 'react';
 import Tracklist from '../Tracklist/Tracklist';
 
 function SearchResults({tracks, onAddTrack}) {
